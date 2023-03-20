@@ -21,7 +21,7 @@
   body {
     font-family: 'Gorditas-regular', Arial, Helvetica, sans-serif;
     font-size: 17px;
-    color: #1c2c40;
+    color: #000000;
     overflow-x: hidden;
     min-width: 320px;
     font-weight: 400;
@@ -29,15 +29,42 @@
   input,
   textarea,
   select {
-    font-family: 'Gorditas-regular', Arial, Helvetica, sans-serif;
+    font-family: 'Gordita-regular', Arial, Helvetica, sans-serif;
     font-weight: 400;
   }
   
   p {
     line-height: 1.6em;
     font-size: 16px;
-    font-family: 'Gorditas-regular', Arial;
+    font-family: 'Gordita-regular', Arial;
     font-weight: 400;
+    color:#898989 ;
+  }
+  h1{
+    font-family:'Gordita-bold' ;
+
+  }
+  h2{
+    font-family:'Gordita-bold' ;
+
+  }
+  h3{
+    font-family:'Gordita-bold' ;
+
+  }
+  h4{
+    font-family:'Gordita-bold' ;
+
+  }
+  h5{
+    font-family:'Gordita-bold' ;
+
+  }
+  span.label {
+    color: #FE9A52;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 18px;
   }
 
   br.clear {
@@ -47,29 +74,35 @@
   .wrapper {
     width: 90%;
     margin: 0 auto;
-    max-width: 1200px;
+    max-width: 1400px;
   }
-  @font-face {
-    font-family: 'Gorditas-regular';
-    src: url('fonts\Gorditas-Regular.woff2') format('woff2'),
-        url('fonts\Gorditas-Regular.woff') format('woff');
+
+
+@font-face {
+    font-family: 'Gordita-bold';
+    src: url('font/Gordita-Bold.woff2') format('woff2'),
+        url('font/Gordita-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+@font-face {
+    font-family: 'Gordita-Regular';
+    src: url('font/Gordita-Regular.woff2') format('woff2'),
+        url('font/Gordita-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
 
-@font-face {
-    font-family: 'Gorditas-bold';
-    src: url('fonts\Gorditas-Bold.woff2') format('woff2'),
-        url('fonts\Gorditas-Bold.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
-}
 Header{
     height: 100px;
     background-color: #fff;
-    padding: 20px;
+    padding: 20px 0 0;
+    margin-bottom: 60px;
 
 
 }
@@ -166,6 +199,237 @@ Header div.right ul li a.button{
 Header div.right ul li a.button:hover{
     background: #044cdb;
     
+}
+#spotlight{
+    background-image: url(Assets/spotlight.png);
+    background-repeat: no-repeat;
+    background-position: right 100px  top 0;
+    background-size: contain;
+    margin-bottom: 100px;
 
+}
+#spotlight Section.wrapper{
+    
+}
+#spotlight Div.top{
+    
+}
+#spotlight Div.top span.label{
+    color: #FE9A52;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 24px;
+    margin-bottom: 30px;
+
+    
+}
+#spotlight Div.top h1{
+    font-weight: 700;
+    font-size: 60px;
+    width: 40%;
+    line-height: 1.7em;
+    margin-bottom: 30px;
+    
+}
+#spotlight Div.top p{
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 20px;
+    width: 50%;
+    
+}
+#spotlight Div.top form{
+    
+}
+#spotlight Div.top form ul{
+    position: relative;
+    width: 50%;
+    background: #f5f5f5;
+    padding: 10px 24px;
+    border-radius: 12px;
+    margin-bottom: 30px;
+    
+    
+}
+#spotlight Div.top form ul li{
+    margin-bottom: 10px;
+
+
+    
+}
+#spotlight Div.top form ul li input[type="email"]{
+    
+    color: #898989 ;
+    width: 100%;
+  
+    font-size: 20px;
+    
+
+    
+
+    
+}
+#spotlight Div.top form ul li input[type="submit"]{
+    background: #1f6bff;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 24px 34px;
+    position: absolute;
+    right: 12px;
+    top: 12px;
+    border-radius: 8px;
+    
+}
+#spotlight Div.top form ul li label{
+    font-size: 28px;
+    font-weight: 600;
+    color: #000;
+    text-transform: none;
+    margin-top: 20px; 
+}
+#spotlight Div.top form:hover label{
+   visibility: hidden;
+
+
+    
+}
+#spotlight Div.top form ul li label::after{
+    content: ' |';
+    
+}
+#spotlight Div.bottom{
+    width: 50%;
+    align-items: center;
+    
+}
+#spotlight Div.bottom ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+#spotlight Div.bottom ul li{
+    width: 80px;
+    
+}
+#spotlight Div.bottom ul li img{
+    display: block;
+    width: 100%;
+    
+}
+#product{
+
+
+}
+#product section.wrapper{
+    
+}
+#product Div.top{
+    text-align: center;
+    margin-bottom: 30px;
+    
+}
+#product Div.top span.label{
+    display: block;
+    font-size: 24px;
+    margin-bottom: 30px;
+    
+}
+#product Div.top h2{
+    font-size: 60px;
+    font-weight: 500;
+    width: 40%;
+    margin: 0 auto;
+    
+}
+#product Div.middle{
+    display: flex;
+    justify-content: space-between;
+    
+}
+#product Div.middle div.item{
+    width: 31%;
+    
+}
+#product Div.middle div.item.one{
+    
+}
+#product Div.middle div.item.two{
+    
+}
+#product Div.middle div.item.three{
+    
+}
+#product Div.middle div.item ul{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+#product Div.middle div.item ul li{
+    
+}
+#product Div.middle div.item ul li div.img_container{
+    width: 100%;
+    background-color: #eaeff5;
+    margin: 0 auto;
+    height: 300px;
+    max-width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    
+    
+    
+    
+    
+}
+#product Div.middle div.item.two ul li div.img_container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; 
+    flex-direction: column;
+   
+}
+#product Div.middle div.item.three ul li div.img_container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+    
+    
+}
+#product Div.middle div.item ul li div.img_container img{
+    display: block;
+    margin: 0 auto;
+    width: 70%;
+    height: 80%;
+    
+    
+}
+#product Div.middle div.item.two ul li div.img_container img{
+    display:block;
+    height: 35%;
+    width: 80%;
+    margin-bottom: 10px;
+    
+}
+#product Div.middle div.item.two ul li div.img_container img:last-child{
+    margin-bottom: 0;
+    
+}
+#product Div.middle div.item.three ul li div.img_container img{
+    width: 40%;
+    display: block;
+    height: 150px;
+    
+}
+
+#product Div.middle div.item ul li h3{
+    
+}
+#product Div.middle div.item ul li p{
     
 }
