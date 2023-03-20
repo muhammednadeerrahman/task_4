@@ -1,0 +1,15 @@
+Font Family -Gordita
+link:https://www.cufonfonts.com/font/gordita
+
+Font Size - H1 :94Px
+		H2 :74Px
+		H3 :24PX
+		H4 :20Px
+		H5 :18px
+
+
+Colours
+black:1E1E1E
+grey:898989
+blue: 1F6BFF
+orenge:FE9A52
