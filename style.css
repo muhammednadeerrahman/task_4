@@ -453,35 +453,71 @@ Header div.right ul li a.button:hover{
     
 }
 #finance{
-    background-image: url();
+    background-image: url(Assets/graph_image.png);
+    background-repeat: no-repeat;
+    background-position: right 50px top 0px;
+    background-size: contain;
 
 }
 #finance Section.wrapper{
     
 }
 #finance Div.top{
+    margin: 0 auto;
+    margin-bottom: 40px;
     
 }
-#finance Div.top h1{
+#finance Div.top h2{
+    font-size: 53px;
+    font-family: 'Gordita-regular';
+    font-weight: 600;
+    width: 40%;
+    
+
     
 }
 #finance Div.bottom{
     
 }
-#finance Div.bottom ol{
+#finance Div.bottom ul{
     
 }
-#finance Div.bottom ol li{
+#finance Div.bottom ul li{
+    margin: 20px 0;
+    width: 34%;
+    border-bottom: 2px solid #eaeff5;
     
 }
-#finance Div.bottom ol li h3{
+#finance Div.bottom ul li h3{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
     
 }
-#finance Div.bottom ol li p{
+#finance Div.bottom ul li h3 img{
     
 }
-#finance Div.bottom ol li p{
+#finance Div.bottom ul li p{
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 16px;
+    display: none;
     
-}#finance Div.bottom ol li a.button{
+    
+}
+#finance Div.bottom ul li:hover p {
+    display: block;
+    
+}
+#finance Div.bottom ul li a.button{
+    display: inline-block;
+    margin-bottom: 20px;
+    color: #FE9A52;
+    font-weight: 600;
+    font-size: 16px;
+    display: none;
+}
+#finance Div.bottom ul li:hover a.button{
+    display: block;
     
 }
