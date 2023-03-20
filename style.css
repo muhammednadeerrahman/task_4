@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    background: transparent;
+    font-weight: normal;
+    text-decoration: none;
+    outline: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  ol,
+  ul {
+    list-style: none;
+  }
+  del {
+    text-decoration: line-through;
+  }
+  body {
+    font-family: 'Gorditas-regular', Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color: #1c2c40;
+    overflow-x: hidden;
+    min-width: 320px;
+    font-weight: 400;
+  }
+  input,
+  textarea,
+  select {
+    font-family: 'Gorditas-regular', Arial, Helvetica, sans-serif;
+    font-weight: 400;
+  }
+  
+  p {
+    line-height: 1.6em;
+    font-size: 16px;
+    font-family: 'Gorditas-regular', Arial;
+    font-weight: 400;
+  }
+
+  br.clear {
+    clear: both;
+    line-height: 0;
+  }
+  .wrapper {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1200px;
+  }
+  @font-face {
+    font-family: 'Gorditas-regular';
+    src: url('fonts\Gorditas-Regular.woff2') format('woff2'),
+        url('fonts\Gorditas-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gorditas-bold';
+    src: url('fonts\Gorditas-Bold.woff2') format('woff2'),
+        url('fonts\Gorditas-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+Header{
+    height: 100px;
+    background-color: #fff;
+    padding: 20px;
+
+
+}
+Header Section.wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+Header div.left{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    align-items: center
+    
+}
+Header div.left h1{
+    width: 150px;
+    
+}
+Header div.left h1 a{
+    width: 100%;
+    display: block;
+    
+}
+Header div.left h1 a img{
+    display: block;
+    width: 100%;
+    
+}
+Header div.left Nav.middle{
+    width: 50%;
+
+    
+}
+Header div.left Nav.middle ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+    
+}
+Header div.left Nav.middle ul li{
+
+    
+}
+Header div.left Nav.middle ul li a{
+    display: inline-block;
+    color:#898989 ; 
+    font-size: 18px;
+    font-weight: 500;
+    
+}
+Header div.left Nav.middle ul li a:hover{
+    font-weight: 700;
+    color: #1E1E1E;
+    
+}
+Header div.right{
+    align-items: center
+    
+}
+Header div.right ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+    
+}
+Header div.right ul li{
+    
+}
+Header div.right ul li a{
+    color: #1f6bff;
+    font-size: 18px;
+    font-weight: 500;
+    display: block;
+    
+}
+Header div.right ul li a:hover{
+    color: #0444c5;
+
+    
+}
+Header div.right ul li a.button{
+    font-weight: 500;
+    font-size: 18px;
+    margin-left: 20px;
+    color: #fff;
+    background: #1f6bff;
+    padding: 12px 24px;
+    border-radius: 10px;
+    display: block;
+}
+Header div.right ul li a.button:hover{
+    background: #044cdb;
+    
+
+    
+}
