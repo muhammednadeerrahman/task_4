@@ -226,6 +226,7 @@ Header div.right ul li a.button:hover{
 #spotlight Div.top h1{
     font-weight: 700;
     font-size: 60px;
+    font-style:Gordita-regular ;
     width: 40%;
     line-height: 1.7em;
     margin-bottom: 30px;
@@ -311,6 +312,7 @@ Header div.right ul li a.button:hover{
     
 }
 #spotlight Div.bottom ul li{
+ 
     width: 80px;
     
 }
@@ -320,6 +322,7 @@ Header div.right ul li a.button:hover{
     
 }
 #product{
+    margin-bottom: 60px;
 
 
 }
@@ -328,7 +331,7 @@ Header div.right ul li a.button:hover{
 }
 #product Div.top{
     text-align: center;
-    margin-bottom: 30px;
+    
     
 }
 #product Div.top span.label{
@@ -339,7 +342,8 @@ Header div.right ul li a.button:hover{
 }
 #product Div.top h2{
     font-size: 60px;
-    font-weight: 500;
+    font-family: 'Gordita-regular';
+    font-weight: 600;
     width: 40%;
     margin: 0 auto;
     
@@ -347,6 +351,7 @@ Header div.right ul li a.button:hover{
 #product Div.middle{
     display: flex;
     justify-content: space-between;
+    margin-top: 60px;
     
 }
 #product Div.middle div.item{
@@ -374,17 +379,13 @@ Header div.right ul li a.button:hover{
     width: 100%;
     background-color: #eaeff5;
     margin: 0 auto;
-    height: 300px;
-    max-width: 80%;
+    height: 350px;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 10px;
-    
-    
-    
-    
-    
+    margin-bottom: 20px;
+   
 }
 #product Div.middle div.item.two ul li div.img_container{
     display: flex;
@@ -395,11 +396,9 @@ Header div.right ul li a.button:hover{
 }
 #product Div.middle div.item.three ul li div.img_container{
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
-    
-    
-    
+    justify-content: center; 
+    padding: 40px 0;
 }
 #product Div.middle div.item ul li div.img_container img{
     display: block;
@@ -411,7 +410,7 @@ Header div.right ul li a.button:hover{
 }
 #product Div.middle div.item.two ul li div.img_container img{
     display:block;
-    height: 35%;
+    height: 30%;
     width: 80%;
     margin-bottom: 10px;
     
@@ -420,16 +419,69 @@ Header div.right ul li a.button:hover{
     margin-bottom: 0;
     
 }
-#product Div.middle div.item.three ul li div.img_container img{
+
+#product Div.middle div.item.three ul li div.img_container span{
+    width: 35%;
+    height: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 10px;
+   
+  
+    
+}
+#product Div.middle div.item.three ul li div.img_container span:nth-child(odd){
+  margin-right: 10px;
+
+    
+}
+#product Div.middle div.item.three ul li div.img_container span img{
     width: 40%;
-    display: block;
-    height: 150px;
+    display: inline-block;
+   
     
 }
 
 #product Div.middle div.item ul li h3{
+ margin-bottom: 20px;
     
 }
 #product Div.middle div.item ul li p{
+    font-weight: 600;
+    
+}
+#finance{
+    background-image: url();
+
+}
+#finance Section.wrapper{
+    
+}
+#finance Div.top{
+    
+}
+#finance Div.top h1{
+    
+}
+#finance Div.bottom{
+    
+}
+#finance Div.bottom ol{
+    
+}
+#finance Div.bottom ol li{
+    
+}
+#finance Div.bottom ol li h3{
+    
+}
+#finance Div.bottom ol li p{
+    
+}
+#finance Div.bottom ol li p{
+    
+}#finance Div.bottom ol li a.button{
     
 }
