@@ -102,7 +102,7 @@ Header{
     height: 100px;
     background-color: #fff;
     padding: 20px 0 0;
-    margin-bottom: 60px;
+    
 
 
 }
@@ -205,7 +205,8 @@ Header div.right ul li a.button:hover{
     background-repeat: no-repeat;
     background-position: right 50px  top 0;
     background-size: 500px 500px;
-    margin-bottom: 100px;
+    margin-top: 60px;
+    padding-bottom: 80px;
 
 }
 #spotlight Section.wrapper{
@@ -339,7 +340,7 @@ Header div.right ul li a.button:hover{
     font-size: 48px;
     font-family: 'Gordita-regular';
     font-weight: 600;
-    width: 40%;
+    width: 35%;
     margin: 0 auto;
     
 }
@@ -448,11 +449,17 @@ Header div.right ul li a.button:hover{
 #product Div.middle div.item ul li h3{
     font-weight: 500;
     font-size: 36px;
+    width: 85%;
+    font-weight: 600;
+    font-family: 'Gordita-regular'
+
  
     
 }
 #product Div.middle div.item ul li p{
     font-weight: 600;
+    font-size: 22px;
+    width: 85%;
     
 }
 #finance{
@@ -493,12 +500,23 @@ Header div.right ul li a.button:hover{
     
 }
 #finance Div.bottom ul li.active{
+    margin: 20px 0;
+    width: 32%;
+    border-bottom: 2px solid #eaeff5;
    
 }
 #finance Div.bottom ul li a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     display: block;
     color: #000;
     
+}
+#finance Div.bottom ul li.active a{
+    display: block;
+    color: #000;
+   
 }
 #finance Div.bottom ul li a h3{
     display: flex;
@@ -507,7 +525,15 @@ Header div.right ul li a.button:hover{
     font-weight: 400;
     
 }
-#finance Div.bottom ul li h3 img{
+#finance Div.bottom ul li.active a h3{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    font-weight: 400;
+    
+}
+#finance Div.bottom ul li a img{
+    display: block
     
 }
 #finance Div.bottom ul li p{
@@ -837,4 +863,73 @@ Footer Div.bottom Div.left ul li a{
     font-size: 0.83em
     
 }
-@media all
+@media all and (max-width:1380px){
+    #spotlight {
+      
+        padding-bottom: 50px;
+    }
+    #product Div.middle div.item ul li div.img_container {
+        height: 315px;
+    }
+    #product Div.middle div.item ul li h3 {
+        width: 90%;
+    }
+    #app div.container h2 {
+        width: 80%;
+    }
+    #app Div.container p {
+        width: 75%;
+    }
+    #testimonials Div.top p {
+        width: 48%;
+    }
+    Footer Div.top Div.item.large blockquote {
+        width: 48%;
+        
+    }
+ 
+
+}
+@media all and (max-width:1280px){
+    #spotlight {
+        background-position: right 10px top 0px; 
+        background-size: 480px 480px;
+        padding-bottom: 40px;
+    }
+    #spotlight Div.top h1 {
+        width: 43%;
+        line-height: 1.5em;
+    }
+    #product Div.top h2 {
+        width: 40%;
+    }
+    #product Div.middle div.item ul li div.img_container {
+        height: 250px;
+    }
+    #product Div.middle div.item {
+        width: 30%;
+    }
+    #product Div.middle div.item ul li h3 {
+        width: 100%;
+    }
+    #product Div.middle div.item ul li p {
+       
+        font-size: 19px;
+        width: 96%;
+    }
+    #finance {
+       
+        background-position: right 10px top 173px;
+        background-size: 614px 371px;
+       
+    }
+
+
+}
+   
+    
+
+@media all and (maxwidth:1280px){
+    
+}
+
