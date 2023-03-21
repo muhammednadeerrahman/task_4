@@ -259,16 +259,9 @@ Header div.right ul li a.button:hover{
     
 }
 #spotlight Div.top form ul li input[type="email"]{
-    
     color: #898989 ;
     width: 100%;
-  
-    font-size: 20px;
-    
-
-    
-
-    
+    font-size: 20px; 
 }
 #spotlight Div.top form ul li input[type="submit"]{
     background: #1f6bff;
@@ -280,6 +273,7 @@ Header div.right ul li a.button:hover{
     right: 12px;
     top: 12px;
     border-radius: 8px;
+    cursor: pointer;
     
 }
 #spotlight Div.top form ul li label{
@@ -485,43 +479,53 @@ Header div.right ul li a.button:hover{
 }
 #finance Div.bottom ul li{
     margin: 20px 0;
-    width: 40%;
+    width: 32%;
     border-bottom: 2px solid #eaeff5;
     
 }
-#finance Div.bottom ul li h3{
+#finance Div.bottom ul li.active{
+   
+}
+#finance Div.bottom ul li a{
+    display: block;
+    color: #000;
+    
+}
+#finance Div.bottom ul li a h3{
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
+    font-weight: 400;
     
 }
 #finance Div.bottom ul li h3 img{
     
 }
 #finance Div.bottom ul li p{
-    margin-bottom: 20px;
+    margin: 20px 0px;
     font-weight: 600;
-    font-size: 16px;
-    display: none;
-    
-    
+    font-size: 14px;  
+
 }
-#finance Div.bottom ul li:hover p {
-    display: block;
-    
-}
+
 #finance Div.bottom ul li a.button{
     display: inline-block;
     margin-bottom: 20px;
     color: #FE9A52;
     font-weight: 600;
     font-size: 16px;
-    display: none;
-}
-#finance Div.bottom ul li:hover a.button{
-    display: block;
+    display: flex;
+    align-items: center;
+   
     
 }
+#finance Div.bottom ul li a.button img{
+    display: inline-block; 
+    width: 15px;
+    margin-left: 10px;
+
+}
+
 #app{
     margin-bottom: 60px;
   
@@ -706,11 +710,11 @@ Header div.right ul li a.button:hover{
     display: flex;
     justify-content: center;
     margin-bottom: 80px;
-
-
-
 }
-#testimonials div.slide span.blue{
+#testimonials div.slide a{
+   display: block;
+}
+#testimonials div.slide a span.blue{
     display: block;
     background-color: #a4bef3;
     width: 30px;
@@ -719,8 +723,101 @@ Header div.right ul li a.button:hover{
     border-radius: 10px;
 
 }
-#testimonials div.slide span.blue.active{
+#testimonials div.slide a span.blue.active{
     
     background-color: #1f6bff;
 
+}
+Footer{
+    padding: 80px 0px;
+    background-color: #050c1e;
+
+}
+Footer Section.wrapper{
+    
+}
+Footer Div.top{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #898989;
+    
+}
+Footer Div.top Div.item.large{
+    width: 45%;
+}
+Footer Div.top Div.item.large h1{
+    width: 100px;
+    margin-bottom: 20px;
+    
+}
+Footer Div.top Div.item.large h1 a{
+    
+    width: 100%;
+    display: block;
+}
+Footer Div.top Div.item.large h1 a img{
+    width: 100%;
+    display: block;
+}
+Footer Div.top Div.item.large blockquote{
+    color: #898989;
+    width: 45%;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.5em;
+    
+}
+    
+Footer Div.top Div.item{
+    width: 12%;
+    margin-bottom: 30px;
+    
+}
+Footer Div.top Div.item ul{
+    
+}
+Footer Div.top Div.item ul li{
+    margin-bottom: 20px;
+}
+Footer Div.top Div.item ul li h5{
+    color: #fff;
+    font-weight: 500;
+    font-size: 14px;
+    
+    
+}
+Footer Div.top Div.item ul li a{
+    color: #898989;
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+    
+}
+Footer Div.bottom{
+    display: flex;
+    justify-content: space-between;
+}
+Footer Div.bottom h5{
+    color: #898989;
+    
+}
+Footer Div.bottom Div.left{
+    width: 23%;
+    
+}
+Footer Div.bottom Div.left ul{
+    display: flex;
+    justify-content: space-between;
+    
+}
+Footer Div.bottom Div.left ul li{
+   
+    
+}
+Footer Div.bottom Div.left ul li a{
+    color: #898989;
+    font-family: 'Gordita-bold';
+    font-size: 0.83em
+    
 }
