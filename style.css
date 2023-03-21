@@ -1485,10 +1485,80 @@ Footer Div.bottom Div.left ul li a{
     }
     Footer Div.bottom Div.left {
         width: 31%;
+    }
         
-    
-
 }
-
+@media all and (max-width:360px){
+    #spotlight Div.top {
+        text-align: center;
+    }
+    #spotlight Div.top h1 {
+        margin: 10px auto;
+        width: 76%;
+    }
+    #spotlight Div.top p {
+        margin-top: 20px;
+        font-size: 14px;
+        width: 100%;
+    }
+    #spotlight Div.top form ul {
+        padding: 20px;
+        position:static;
+    }
+    #spotlight Div.top form ul li:nth-child(3) {
+        display: none;
+    }
+    #spotlight Div.top form ul li {
+        text-align: center;
+        
+    }
+    #spotlight Div.top form ul li input[type="submit"] {
+        position: static;
+        
+    }
+    #spotlight Div.top form ul li input[type="email"] {
+        width: 100%;
+        border:1px solid #9c9898;
+        padding: 12px 24px;
+        border-radius: 10px;
+    }
+    #spotlight Div.bottom ul {
+        justify-content: space-around;
+    }
+    #product Div.middle div.item {
+        width: 100%;
+    }
+    #product Div.middle div.item ul li div.img_container {
+        height: 264px;
+    }
+    #finance Div.top{
+        margin-bottom: 20px;
+    }
+    #finance Div.top h2 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    #app Div.container {
+        margin-left: 0px;
+    }
+    #testimonials Div.bottom div.item {
+        width: 100%;
+    }
+    #testimonials Div.bottom div.item:nth-child(odd) {
+        margin-right: 0px;
+    }
+    Footer Div.top Div.item ul li a {
+        font-size: 16px;
+    }
+    Footer Div.top Div.item ul li h5 {
+        font-size: 16px;
+    }
+    Footer Div.bottom Div.left {
+        width: 40%;
+        font-size: 16px;
+    }
+  
+    
+}
 
 
