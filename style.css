@@ -482,7 +482,7 @@ Header div.right ul li a.button:hover{
     font-size: 48px;
     font-family: 'Gordita-regular';
     font-weight: 600;
-    width: 40%;
+    width: 35%;
     
 
     
@@ -495,46 +495,39 @@ Header div.right ul li a.button:hover{
 }
 #finance Div.bottom ul li{
     margin: 20px 0;
-    width: 32%;
+    width: 35%;
     border-bottom: 2px solid #eaeff5;
     
 }
 #finance Div.bottom ul li.active{
     margin: 20px 0;
-    width: 32%;
+    width: 35%;
     border-bottom: 2px solid #eaeff5;
    
 }
 #finance Div.bottom ul li a{
     display: flex;
-    justify-content: center;
     align-items: center;
-    display: block;
     color: #000;
-    
+    margin-bottom: 20px;
+  
 }
 #finance Div.bottom ul li.active a{
-    display: block;
     color: #000;
+    margin-bottom: 20px;
    
 }
 #finance Div.bottom ul li a h3{
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 20px;
+    margin-right: 20px;
     font-weight: 400;
     
 }
 #finance Div.bottom ul li.active a h3{
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 20px;
     font-weight: 400;
-    
 }
 #finance Div.bottom ul li a img{
-    display: block
-    
+    display: block;
+  
 }
 #finance Div.bottom ul li p{
     margin: 20px 0px;
@@ -542,7 +535,6 @@ Header div.right ul li a.button:hover{
     font-size: 14px;  
 
 }
-
 #finance Div.bottom ul li a.button{
     display: inline-block;
     margin-bottom: 20px;
@@ -918,18 +910,143 @@ Footer Div.bottom Div.left ul li a{
         width: 96%;
     }
     #finance {
-       
-        background-position: right 10px top 173px;
+        background-position: right 10px top 90px;
         background-size: 614px 371px;
        
     }
-
-
+    #finance Div.top h2 {
+        width: 40%;
+    }
+    #finance Div.bottom ul li {
+        width: 47%;
+    }
+    #finance Div.bottom ul li.active {
+        width: 46%;
+    }
+    #app div.bg img {
+        right: -13px;
+    }
+    #app Div.container p {
+        width: 95%;
+        margin-bottom: 40px;
+    }
+    #app div.container h2 {
+        width: 100%;
+    }
+    #testimonials Div.top p {
+        width: 57%;
+    }
+    #testimonials Div.bottom {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    #testimonials Div.bottom div.item {
+        width: 35%;
+    }
+    #testimonials Div.bottom div.item:nth-child(odd) {
+        margin-right: 30px;
+    }
+    #testimonials Div.bottom div.item:nth-child(1) {
+        margin-bottom: 30px;
+    }
+    #testimonials Div.bottom div.item:nth-child(2) {
+        margin-bottom: 30px;
+    }
+    #testimonials Div.bottom div.item ul li blockquote {
+        width: 81%;
+        font-size: 16px;
+       
+    }
+    Footer Div.top Div.item.large blockquote {
+        width: 56%;
+    }
 }
-   
-    
+@media all and (max-width:1080px){
 
-@media all and (maxwidth:1280px){
-    
+    #spotlight Div.top span.label {
+        font-size: 18px;
+    }
+    #spotlight Div.top h1 {
+        width: 48%;
+        font-size: 50px;
+        line-height: 1.3em;
+    }
+    #spotlight Div.top p {
+        font-size: 15px;
+        width: 50%;
+        margin-bottom: 40px;
+    }
+    #spotlight Div.top form ul {
+        width: 44%;
+    }
+    #spotlight Div.top form ul li label {
+        font-size: 16px;
+    }
+    #spotlight Div.top form ul li input[type="email"] {
+        width: 46%;
+        font-size: 13px;
+    }
+    #spotlight Div.top form ul li input[type="submit"] {
+        font-size: 18px;
+        padding: 12px 24px;
+        top: 16px;
+    }
+    #spotlight Div.bottom ul li {
+        width: 60px;
+    }
+    #spotlight {
+        background-size: 440px 440px;
+        padding-bottom: 0px;
+    }
+    #product Div.top h2 {
+        width: 50%;
+    }
+    #product Div.middle div.item ul li div.img_container {
+        height: 240px;
+    }
+    #product Div.middle div.item ul li h3 {
+        font-size: 30px;
+    }
+    #product Div.middle div.item ul li p {
+        font-size: 18px;
+        width: 100%;
+    }
+    #finance Div.top h2 {
+        width: 50%;
+    }
+    #finance Div.bottom ul li {
+        width: 52%;
+    }
+    #finance Div.bottom ul li.active {
+        width: 52%;
+    }
+    #finance {
+        background-position: right 10px top 164px;
+        background-size: 549px 326px;
+    }
+    #app Div.container h2 {
+        font-size: 40px;
+    }
+    #app Div.container p {
+        width: 100%;
+    }
+    #testimonials Div.top Span.label {
+        font-size: 18px;
+    }
+    #testimonials Div.top p {
+        width: 63%;
+    }
+    #testimonials Div.bottom div.item ul li blockquote {
+        width: 90%;
+    }
+    Footer Div.top Div.item.large blockquote {
+        width: 62%;
+    }
+    Footer Div.bottom Div.left {
+        width: 29%;
+    }  
+}
+@media all and (max-width:980px){
+
 }
 
