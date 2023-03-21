@@ -1047,6 +1047,128 @@ Footer Div.bottom Div.left ul li a{
     }  
 }
 @media all and (max-width:980px){
+    #spotlight {
+        background-size: 300px;
+    }
+    #spotlight Div.top h1 {
+        width: 51%;
+        font-size: 45px;
+    }
+    #spotlight Div.top p {
+        font-size: 14px;
+        width: 63%;
+        margin-bottom: 40px;
+    }
+    #spotlight Div.top form ul li label {
+        font-size: 13px;
+    }
+    #spotlight Div.top form ul li input[type="submit"] {
+        font-size: 18px;
+        padding: 10px 12px;
+        top: 19px;
+    }
+    #spotlight Div.top form ul li input[type="email"] {
+        width: 53%;
+        font-size: 14px;
+    }
+    #spotlight Div.top form ul li label {
+        font-size: 13px;
+    }
+    #spotlight Div.bottom {
+        width: 55%;
+    }
+    #product Div.top span.label {
+        font-size: 18px;
+    }
+    #product {
+        padding: 70px 0;
+    }
+    #product Div.top h2 {
+        font-size: 43px;
+        width: 50%;
+    }
+    #product Div.middle div.item {
+        width: 32%;
+    }
+    #product Div.middle div.item ul li div.img_container {
+        height: 210px;
+    }
+    #product Div.middle div.item ul li h3 {
+        font-size: 24px;
+    }
+    #product Div.middle div.item ul li p {
+        font-size: 16px;
+    }
+    #finance {
+        background-image: none;
+    }
+    #finance Div.top h2 {
+        width: 56%;
+        font-size: 43px;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+    #finance Div.bottom ul li {
+        width: 85%;
+    }
+    #finance Div.bottom ul li.active {
+        width: 85%;
+    }
+    #app div.bg img {
+        right: 7px;
+        width: 290px;
+        top: -34px;
+        right: 0px;
+    }
+    #app div.bg {
+        height: 345px;
+        width: 884px;
+        left: -50px;
+    }
+    #app Div.container {
+        margin-left: 17px;
+    }
+    #app Div.container h2 {
+        font-size: 36px;
+    }
+    #app Div.container p {
+        font-size: 14px;
+    }
+    #app Div.container ul {
+        width: 85%;
+    }
+    #testimonials Div.top p {
+        width: 81%;
+    }
+    #testimonials Div.bottom div.item {
+        width: 15%;
+    }
+    Footer Div.top Div.item.large {
+        width: 30%;
+    }
+    Footer Div.top Div.item.large blockquote {
+        width: 100%;
+    }
+    Footer Div.top Div.item ul li h5 {
+        font-size: 13px;
+    }
+    Footer Div.bottom Div.left {
+        width: 38%;
+    }
+}
+@media all and (max-width:768px){
+    Header div.left Nav.middle {
+        display: none;
+    }
+    #spotlight Div.top span.label {
+        font-size: 16px;
+    }
+    #spotlight Div.top h1 {
+        width: 55%;
+        font-size: 38px;
+    }
 
 }
+
+
 
