@@ -1214,7 +1214,6 @@ Footer Div.bottom Div.left ul li a{
     }
     #product Div.middle div.item ul li p {
         font-size: 14px;
-        text-align: center;
     }
     #finance Div.top h2 {
         width: 68%;
@@ -1309,7 +1308,6 @@ Footer Div.bottom Div.left ul li a{
     }
     #product Div.middle div.item {
         width: 65%;
-        text-align: center;
         margin-bottom: 40px;
     }
     #product Div.middle div.item:last-child {
@@ -1382,7 +1380,114 @@ Footer Div.bottom Div.left ul li a{
     }
 }
 @media all and (max-width:480px){
+    Header div.right{
+        display: none;
+      
+    }
+    Header div.left {
+       margin: 0 auto;
+    }
+    Header div.left h1 {
+        margin: 0 auto;
+    }
+    Header {
+        height: 80px;
+    }
+    #spotlight {
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    #spotlight Div.top h1 {
+        font-size: 30px;
+        margin-top: 10px;
+    }
+    #spotlight Div.bottom ul {
+        justify-content: center;
+       flex-wrap: wrap;
+    }
+    #spotlight Div.bottom ul li {
+        width: 100px;
+        margin-left: 5px;
+    }
+    #spotlight Div.bottom ul li img{
+        width: 50%;
+    }
+    #product {
+        padding: 15px 0 40px;
+    }
+    #product Div.top span.label {
+        font-size: 16px;
+    }
+    #product Div.top h2 {
+        font-size: 28px;
+    }
+    #spotlight Div.top form ul {
+        margin-bottom: 43px;
+    }
+    #product Div.middle div.item ul li  {
+        text-align: left;
+    }
+    #product Div.middle div.item ul li div.img_container {
+        
+        height: 217px;
+    }
+    #product Div.middle div.item ul li a {
+
+        margin-bottom: 10px;
+    }
+    #product Div.middle div.item ul li h3 {
+        font-size: 19px;
+    }
+    #product Div.middle div.item ul li  p {
+        text-align: left;
+    }
+    #finance Div.top {
+        margin-bottom: 20px;
+    }
+    #finance Div.top h2 {
+        width: 78%;
+        font-size: 30px;
+        margin-bottom: 0px;
+    }
+    #finance Div.bottom ul li.active {
+        margin: 15px 0;
+    }
+    #finance Div.bottom ul li {
+        margin: 15px 0;
+    }
+    #app Div.container span.label {
+        font-size: 16px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    #app Div.container h2 {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    #app Div.container ul {
+        width: 97%;
+    }
+    #testimonials {
+        padding: 25px 0;
+      
+    }
+    #testimonials Div.top Span.label {
+        margin-bottom: 10px;
+    }
+    Footer {
+        padding: 20px 0px;
+    }
+    Footer Div.bottom Div.left ul {
+        flex-direction: column;  
+    }
+    Footer Div.bottom Div.left ul li {
+        margin-bottom: 10px;  
+    }
+    Footer Div.bottom Div.left {
+        width: 31%;
+        
     
+
 }
 
 
