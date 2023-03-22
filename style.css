@@ -480,7 +480,7 @@ Header div.right ul li a.button:hover{
 }
 #finance Div.top h2{
     font-size: 48px;
-    font-family: 'Gordita-regular';
+    font-family: 'Gordita-bold';
     font-weight: 600;
     width: 35%;
     
@@ -1404,6 +1404,29 @@ Footer Div.bottom Div.left ul li a{
         font-size: 30px;
         margin: 10px auto 10px ;
     }
+    #spotlight div.top form ul li {
+        margin: 0 auto;
+       
+     }
+     #spotlight div.top form ul {
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        
+     }
+     #spotlight Div.top form ul li input[type="email"] {
+        width: 90%;
+        margin: 0 auto;
+        padding-bottom: 20px;
+    }
+     #spotlight Div.top form ul li input[type="submit"] {
+        position: static;
+        margin: 0 auto;
+        
+     }
+    #spotlight div.top form ul li:nth-child(3) {
+       display: none;
+    }
     
     #spotlight Div.bottom ul {
         justify-content: center;
@@ -1528,10 +1551,8 @@ Footer Div.bottom Div.left ul li a{
         
     }
     #spotlight Div.top form ul li input[type="email"] {
-        width: 100%;
-        border:1px solid #9c9898;
+        width: 90%;
         padding: 12px 24px;
-        border-radius: 10px;
     }
     #spotlight Div.bottom ul {
         justify-content: space-around;
