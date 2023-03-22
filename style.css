@@ -1397,10 +1397,14 @@ Footer Div.bottom Div.left ul li a{
         margin-top: 30px;
         margin-bottom: 20px;
     }
+    #spotlight Div.top {
+        text-align: center;
+    }
     #spotlight Div.top h1 {
         font-size: 30px;
-        margin-top: 10px;
+        margin: 10px auto 10px ;
     }
+    
     #spotlight Div.bottom ul {
         justify-content: center;
        flex-wrap: wrap;
@@ -1427,10 +1431,14 @@ Footer Div.bottom Div.left ul li a{
     #product Div.middle div.item ul li  {
         text-align: left;
     }
-    #product Div.middle div.item ul li div.img_container {
+    #product Div.middle div.item {
+        width: 90%;
         
-        height: 217px;
     }
+    #product Div.middle div.item ul li div.img_container {
+        height: 317px;
+    }
+
     #product Div.middle div.item ul li a {
 
         margin-bottom: 10px;
@@ -1459,6 +1467,9 @@ Footer Div.bottom Div.left ul li a{
         font-size: 16px;
         margin-bottom: 20px;
         text-align: center;
+    }
+    #app Div.container {
+        margin-left: 0px;
     }
     #app Div.container h2 {
         margin-bottom: 20px;
